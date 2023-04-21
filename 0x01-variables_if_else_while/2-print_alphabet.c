@@ -3,21 +3,21 @@
 #include <time.h>
 
 /**
- *  main - Entry point
+ * main - Entry point
  *
- *  Return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	char lower = 'a';
-	
-        while (lower <= 'z')
+
+	while (lower <= 'z')
 	{
 		putchar(lower);
 		lower++;
 	}
-	        putchar('\n');
-	
+		putchar('\n');
+
 	return (0);
 }
