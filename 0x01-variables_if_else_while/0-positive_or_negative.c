@@ -5,7 +5,7 @@
  * main - Determine if a random number is positive, negative or zero.
  *
  * Return: 0 on success
- */  
+ */
 int main(void)
 {
 	int n;
@@ -20,11 +20,10 @@ int main(void)
 	else if (n > 0)
 	{
 		printf("%d is %s\n", n, "positive");
-	}	
+	}
 	else
 	{
-		print("%d is %s\n", n, "zero");
+	        printf("%d is %s\n", n, "zero");
 	}	
 	return (0);
 }
-
